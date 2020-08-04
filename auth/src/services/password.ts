@@ -1,6 +1,5 @@
 import { scrypt, randomBytes } from 'crypto';
 import { promisify } from 'util';
-import { buildCheckFunction } from 'express-validator';
 
 const scryptAsync = promisify(scrypt);
 
